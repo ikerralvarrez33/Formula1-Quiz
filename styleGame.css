@@ -1,0 +1,128 @@
+body {
+  background: #0f7a0f;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#start-screen {
+  text-align: center;
+  background: #111;
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#player-name {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+#start-screen button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+#start-screen button:hover {
+  background: darkred;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 900px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+  color: #000;
+}
+
+.left h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.question {
+  font-size: 1.5rem;
+}
+
+.answer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #39ff14;
+  text-align: center;
+  border: 2px solid #39ff14;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #27cc0a;
+}
+
+.Correcto {
+  background-color: green;
+  color: white;
+}
+
+.Incorrecto {
+  background-color: red;
+  color: white;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+#feedback-img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.btn {
+  margin: 10px;
+}

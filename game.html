@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego Quiz F1</title>
+    <link rel="stylesheet" href="styleGame.css" />
+  </head>
+  <body>
+    <div id="start-screen">
+      <h2>Ingresa tu nombre</h2>
+      <input type="text" id="player-name" placeholder="Tu nombre" />
+      <button onclick="startQuiz()">Empezar</button>
+    </div>
+
+    <div class="quiz-container" id="quiz-container" style="display: none">
+      <div id="question" class="question">Pregunta aparecerá aquí</div>
+      <div id="answer-buttons" class="answer-buttons"></div>
+      <button id="next-btn" class="btn">Siguiente</button>
+    </div>
+
+    <div id="feedback" class="feedback" style="display: none">
+      <img
+        id="feedback-img"
+        src=""
+        alt="Imagen explicación"
+        style="max-width: 300px; margin-bottom: 10px"
+      />
+      <p id="feedback-text"></p>
+    </div>
+    <audio id="bg-music" src="music/musica.mp3" loop></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
